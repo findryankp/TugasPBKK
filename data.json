@@ -1,0 +1,30 @@
+{
+  "cards" : [
+    {
+      "card_image" : "http://placehold.it/450x150?text=IMAGE",
+      "card_title" : "Title for card 1",
+      "card_text" : "This is some card text."
+    },
+    {
+      "card_image" : "http://placehold.it/450x150?text=IMAGE",
+      "card_title" : "Title for card 2",
+      "card_text" : "This is some card text, which may be a bit longer than the rest."
+    },
+    {
+      "card_image" : "http://placehold.it/450x150?text=IMAGE",
+      "card_title" : "Title for card 3",
+      "card_text" : "This is some card text."
+    }
+  ],
+  "navItems" : [
+    {
+      "menu_item" : "Index"
+    },
+    {
+      "menu_item" : "Page 1"
+    },
+    {
+      "menu_item" : "Page 2"
+    }
+  ]
+}

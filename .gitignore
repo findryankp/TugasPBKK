@@ -1,0 +1,9 @@
+my_database/*
+node_modules/*
+my_databases/*
+log/*
+Logs/*
+_replicator/*
+_users/*
+pouch__all_dbs__/*
+my_datadase/*

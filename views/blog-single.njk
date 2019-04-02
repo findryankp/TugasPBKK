@@ -1,0 +1,374 @@
+{% extends "layouts/layout.njk" %}
+{% set page_title = "Blog Single | Bootstrap Patterns" %}
+{% set page_singleblog = "active" %}
+{% block main %}
+<!-- Breadcrumbs Start
+    ================================================== -->
+
+	<section id="topic-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1>BLOG</h1>
+					<p>Latest News and Musings</p>
+				</div>	<!-- End of /.col-md-4 -->
+				<div class="col-md-8 hidden-xs">
+					<ol class="breadcrumb pull-right">
+					  	<li><a href="#">Home</a></li>
+					  	<li><a href="#">Blog</a></li>
+					  	<li class="active">Single Post</li>
+					</ol>
+				</div>	<!-- End of /.col-md-8 -->
+			</div>	<!-- End of /.row -->
+		</div>	<!-- End of /.container -->
+	</section>	<!-- End of /#Topic-header -->
+
+
+
+
+
+
+	<section id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 clearfix">
+					<ul class="blog-zone">
+					    <li>
+					        <div class="blog-icon">
+					        	<i class="fa  fa-pencil"></i>
+					        </div>
+					        <div class="blog-box">
+					        	<img src="images/blog-1.jpg" alt="">
+					            
+					            <div class="blog-post-body clearfix">
+						            <a href="">
+					            		<h2>Ricebean black-eyed pea</h2>
+						            </a>
+					            	<div class="blog-post-tag">
+						            	<div class="block">
+						            		<i class="fa fa-clock-o"></i>
+						            		<p>12 Jan,2014</p>
+						            	</div>
+						            	<div class="block">
+						            		<i class="fa fa-user"></i>
+						            		<p>Admin</p>
+						            	</div>
+						            	<div class="block">
+						            		<i class="fa fa-tags"></i>
+						            		<p>
+						            			<a href="">Food Culture</a>,
+						            			<a href="">Green Items</a>
+						            		</p>
+						            	</div>
+						            	<div class="block">
+						            		<i class="fa fa-comments"></i>
+						            		<p>3 Comments</p>
+						            	</div>
+						            </div>
+						            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nostrum inventore debitis accusantium natus praesentium enim sequi culpa provident dignissimos veniam deserunt voluptatibus fugit delectus pariatur numquam optio quidem illo. Obcaecati, placeat, enim accusantium sunt inventore sed dolorum molestiae ab consequuntur voluptatem dolor necessitatibus reprehenderit adipisci explicabo hic quibusdam pariatur!</p>
+						            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren sed diam voluptua.</p>
+						            
+						            <blockquote>
+					                    <p>Lorem ipsum dolor sit amet, in pri offendit ocurreret. Vix sumo ferri an. pfs adodio fugit delenit ut qui. Omittam suscipiantur ex  vel,ex audiam  intellegat gfIn labitur discere eos, nam an feugiat voluptua.</p>
+										<div class="block-qoute-by">
+					                        - John Doe , Author
+					                    </div>
+					                </blockquote>
+					                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde expedita neque excepturi iste cumque! Dolorem, ipsum, totam, culpa ullam dolores qui possimus corrupti suscipit recusandae quam magnam quis eaque incidunt!</p>
+					            </div>
+					        </div>
+					    </li>
+					</ul>	<!-- End of /.blog-zone -->
+
+					<div class="author-id">
+						<div class="media">
+							<h5>About The Author</h5>
+						  	<img class="media-object pull-left" src="images/author.jpg" alt="...">
+						  	<div class="media-body">
+						    	<h6 class="media-heading">John Mark</h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi quibusdam voluptate perferendis veniam eveniet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, veritatis.</p>
+						    </div>	<!-- End of /.media-body -->
+						</div>	<!-- End of /.media -->
+					</div>	<!-- End of /.author-id -->
+
+					<div class="comments-box">
+						<h5>3 REPSONSES</h5>
+						<div class="media">
+						  	<img class="media-object pull-left" src="images/author.jpg" alt="...">
+						  	<div class="media-body">
+						    	<h6 class="media-heading">John Mark <span>12 February 2013 at 2:05 am</span> <a href=""  class="pull-right">(reply)</a></h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi quibusdam voluptate perferendis veniam eveniet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, veritatis.</p>
+						    </div>	<!-- End of /.meida-body -->
+						</div>	<!-- End of /.media -->
+						
+						
+						<!-- reply -->
+						<div class="media reply">
+						  	<img class="media-object pull-left" src="images/author.jpg" alt="...">
+						  	<div class="media-body">
+						    	<h6 class="media-heading">John Mark <span>12 February 2013 at 2:05 am</span> <a href=""  class="pull-right">(reply)</a></h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi quibusdam voluptate perferendis </p>
+						    </div>
+						</div>
+						
+
+						<!-- reply -->
+						<div class="media reply">
+						  	<img class="media-object pull-left" src="images/author.jpg" alt="...">
+						  	<div class="media-body">
+						    	<h6 class="media-heading">John Mark <span>12 February 2013 at 2:05 am</span> <a href=""  class="pull-right">(reply)</a></h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi quibusdam voluptate perferendis </p>
+						    </div>
+						</div>
+
+						
+						<!-- media -->
+						<div class="media">
+						  	<img class="media-object pull-left" src="images/author.jpg" alt="...">
+						  	<div class="media-body">
+						    	<h6 class="media-heading">John Mark <span>12 February 2013 at 2:05 am</span> <a href=""  class="pull-right">(reply)</a></h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi quibusdam voluptate perferendis veniam eveniet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, veritatis.</p>
+						    </div>	<!-- End of /.media-body -->
+						</div>	<!-- End of /.media -->
+
+						<!-- reply -->
+						<div class="media reply">
+						  	<img class="media-object pull-left" src="images/author.jpg" alt="...">
+						  	<div class="media-body">
+						    	<h6 class="media-heading">John Mark <span>12 February 2013 at 2:05 am</span> <a href=""  class="pull-right">(reply)</a></h6>
+						    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sequi quibusdam voluptate perferendis </p>
+						    </div>	<!-- End of /.media body -->
+						</div>	<!-- End of /.media-reply -->
+					</div>	<!-- End of /.comments-box -->
+					
+					<div class="leave-comment">
+						<h5>LEAVE A COMMENT</h5>
+						<form class="form-horizontal" role="form">
+							<div class="form-group">
+						    	<label for="inputname" class="col-sm-2 control-label">Name</label>
+							    <div class="col-sm-10">
+							      	<input type="text" class="form-control" id="inputname" placeholder="Name">
+							    </div>
+						  	</div>	<!-- End of /.form-group -->
+						  	<div class="form-group">
+						    	<label for="inputEmail" class="col-sm-2 control-label">Email</label>
+							    <div class="col-sm-10">
+							      	<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+							    </div>
+						  	</div>	<!-- End of /.form-group -->
+						  	<div class="form-group">
+						    	<label for="inputwebsite" class="col-sm-2 control-label">Website</label>
+							    <div class="col-sm-10">
+							      	<input type="text" class="form-control" id="inputwebsite" placeholder="Website">
+							    </div>
+						  	</div>	<!-- End of /.form-group -->
+						  	<div class="form-group">
+						    	<label for="inputmessage" class="col-sm-2 control-label">Message</label>
+							    <div class="col-sm-10">
+							      	<textarea class="form-control" id="inputmessage"  rows="3"></textarea>
+							    </div>
+						  	</div>	<!-- End of /.form-group -->
+						  		
+							<div class="form-group">
+						    	<div class="col-sm-offset-2 col-sm-10">
+						      		<button type="submit" class="btn btn-primary">Send</button>
+						    	</div>
+						  	</div>	<!-- End of /.form-group -->
+						</form>	<!-- End of /.form-horizontal -->
+					</div>	<!-- End of /.leave comments -->
+				</div>	<!-- End of /.col-md-9 -->
+
+				<div class="col-md-3">
+					<div class="blog-sidebar">
+						<div class="block">
+							<h4>Catagories</h4>
+							<div class="list-group">
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Italian Foods
+								</a>
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Traditional Food
+								</a>
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Indian Food
+								</a>
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Spanish Food
+								</a>
+								<a href="#" class="list-group-item">
+									<i class="fa  fa-dot-circle-o"></i>
+									Thai FoodN
+								</a>
+							</div>
+						</div>	<!-- End of /.block -->
+						<div class="block">
+							<h4>Popular Posts</h4>
+							<ul class="media-list">
+							 	<li class="media">
+							    	<a class="pull-left" href="#">
+							      		<img class="media-object" src="images/post-img.png" alt="...">
+							    	</a>
+							    	<div class="media-body">
+							      		<a href="" class="media-heading">
+							      			Lorem ipsum dolor</a>
+							    	  	<p>January 10,2014</p>
+							    	</div>
+							  	</li>
+							  	<li class="media">
+							    	<a class="pull-left" href="#">
+							      		<img class="media-object" src="images/post-img-2.png" alt="...">
+							    	</a>
+							    	<div class="media-body">
+							      		<a href="" class="media-heading">
+							      			Mauris blandit aliquet</a>
+							    	  	<p>January 10,2014</p>
+							    	</div>
+							  	</li>
+							  	<li class="media">
+							    	<a class="pull-left" href="#">
+							      		<img class="media-object" src="images/post-img-3.png" alt="...">
+							    	</a>
+							    	<div class="media-body">
+							      		<a href="" class="media-heading">
+							      			Quisque velit nisi</a>
+							    	  	<p>January 10,2014</p>
+							    	</div>
+							  	</li>
+							  </ul>
+						</div>	<!-- End of /.block -->
+
+						<div class="block">
+							<h4>Tag Cloud</h4>
+							<div class="tag-link">
+								<a href="">BALLET</a>
+								<a href="">BLOG</a>
+								<a href="">CHRISTMAS</a>
+								<a href="">ELEGANCE</a>
+								<a href="">ELEGANT</a>
+								<a href="">SHOPPING</a>
+								<a href="">SHOP</a>
+								<a href="">PHOTOGRAPHY</a>
+							</div>	
+						</div>	<!-- End of /.block -->
+						
+					</div>	<!-- End of /.Sidebar -->
+				</div>	<!-- End of /.col-md-3 -->
+			</div>	<!-- End of /.row -->
+		</div>	<!-- End of /.container -->
+	</section> <!-- End of /.Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER Start
+    ================================================== -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="block clearfix">
+						<a href="#">
+							<img src="images/footer-logo.png" alt="">
+						</a>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+						</p>
+						<h4 class="connect-heading">CONNECT WITH US</h4>
+						<ul class="social-icon">
+							<li>
+								<a class="facebook-icon" href="#">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a class="plus-icon" href="#">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</li>
+							<li>
+								<a class="twitter-icon" href="#">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+							<li>
+								<a class="pinterest-icon" href="#">
+									<i class="fa fa-pinterest"></i>
+								</a>
+							</li>
+							<li>
+								<a class="linkedin-icon" href="#">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>	<!-- End Of /.social-icon -->
+					</div>	<!-- End Of /.block -->
+				</div> <!-- End Of /.Col-md-4 -->
+				<div class="col-md-4">
+					<div class="block">
+						<h4>GET IN TOUCH</h4>
+						<p ><i class="fa  fa-map-marker"></i> <span>Food Code d.o.o.,</span>1000 Ljubljana Celovska cesta 135, Slovenia</p>
+						<p> <i class="fa  fa-phone"></i> <span>Phone:</span> (+386) 40 123 456 </p>
+
+						<p> <i class="fa  fa-mobile"></i> <span>Mobile:</span> (+386) 40 654 123 651</p>
+ 
+						<p class="mail"><i class="fa  fa-envelope"></i>Eamil: <span>info@sitename.com</span></p>
+					</div>	<!-- End Of /.block -->
+				</div> <!-- End Of Col-md-3 -->
+				<div class="col-md-4">
+					<div class="block">
+						<h4>UPCOMING ITEMS</h4>
+						<div class="media">
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/product-item.jpg" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/product-item.jpg" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/product-item.jpg" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/product-item.jpg" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/product-item.jpg" alt="...">
+						  	</a>
+						  	<a class="pull-left" href="#">
+						    	<img class="media-object" src="images/product-item.jpg" alt="...">
+						  	</a>
+						</div>	<!-- End Of /.media -->
+					</div>	<!-- End Of /.block -->
+				</div> <!-- End Of Col-md-3 -->
+			</div> <!-- End Of /.row -->
+		</div> <!-- End Of /.Container -->
+		
+
+{% endblock %}

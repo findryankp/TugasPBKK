@@ -26,6 +26,10 @@ app.get('/', function(req, res){
     res.render('index.njk', {title: 'Main page'});    
 });
 
+app.get('/login', function(req, res){
+    res.render('login.njk', {title: 'Main page'});    
+});
+
 app.get('/products', function(req, res){
     res.render('products.njk', {title: 'Main page'});    
 }); 
